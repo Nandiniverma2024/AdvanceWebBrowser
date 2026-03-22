@@ -5,4 +5,9 @@ public class Assignment4_PackageDemo {
         Date d = new Date();
         System.out.println("Using Inbuilt Package java.util.Date: " + d);
     }
+
+    public static void main(String[] args) {
+        Assignment4_PackageDemo obj = new Assignment4_PackageDemo();
+        obj.showPackage();
+    }
 }

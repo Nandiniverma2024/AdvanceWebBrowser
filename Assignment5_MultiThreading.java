@@ -22,4 +22,9 @@ public class Assignment5_MultiThreading {
         new Tab2().start();
         new Tab3().start();
     }
+
+    public static void main(String[] args) {
+        Assignment5_MultiThreading obj = new Assignment5_MultiThreading();
+        obj.startTabs();
+    }
 }

@@ -6,4 +6,9 @@ public class Assignment7_ExceptionHandling {
             System.out.println("Exception Handled Successfully");
         }
     }
+
+    public static void main(String[] args) {
+        Assignment7_ExceptionHandling obj = new Assignment7_ExceptionHandling();
+        obj.handleException();
+    }
 }
